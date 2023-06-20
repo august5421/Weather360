@@ -90,7 +90,9 @@ const App = () => {
           darkMode={darkMode}
         />
       ) : (
-        <p>Loading...</p>
+        <div className='load-screen'>
+          <p>Loading Weather In Your Area...</p>
+        </div>
       )}
     </div>
   );
