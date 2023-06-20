@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d376a24b.css",
-    "main.js": "/static/js/main.db082527.js",
+    "main.css": "/static/css/main.c24dc723.css",
+    "main.js": "/static/js/main.dce4b2ce.js",
     "static/js/787.e45c8987.chunk.js": "/static/js/787.e45c8987.chunk.js",
     "static/media/w360logo.png": "/static/media/w360logo.bfce21bec5187366d320.png",
     "index.html": "/index.html",
-    "main.d376a24b.css.map": "/static/css/main.d376a24b.css.map",
-    "main.db082527.js.map": "/static/js/main.db082527.js.map",
+    "main.c24dc723.css.map": "/static/css/main.c24dc723.css.map",
+    "main.dce4b2ce.js.map": "/static/js/main.dce4b2ce.js.map",
     "787.e45c8987.chunk.js.map": "/static/js/787.e45c8987.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d376a24b.css",
-    "static/js/main.db082527.js"
+    "static/css/main.c24dc723.css",
+    "static/js/main.dce4b2ce.js"
   ]
 }
