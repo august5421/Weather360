@@ -1,0 +1,203 @@
+.home-screen {
+  min-height: calc(100vh - 30px);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.NavScreen {
+  border-radius: 25px;
+  width: 125px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 15px; 
+}
+
+.NavScreen .logo {
+    width: 80%;
+    margin-bottom: 50px;
+}
+.NavScreen .switches {
+    margin-bottom: 50px;
+}
+.css-ars20s-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+    color: #4F45FF !important;
+}
+.css-ars20s-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: #4F45FF !important;
+}
+.SearchScreen {
+  
+  border-radius: 25px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 15px 15px 15px; 
+}
+
+.mainWeatherData {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rowOne {
+  width: 100%;
+  height: calc(100vh - 105px); 
+  display: flex;
+  flex-direction: row;
+}
+
+.colOne {
+  width: 70%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.CurrentScreen {
+  flex: 1; 
+  display: flex;
+  height: 30%;
+  margin: 15px; 
+  padding: 15px;
+}
+.CurrentScreen .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.CurrentScreen .cent {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.CurrentScreen .temp {
+    font-size: calc(10px + 3vw);
+}
+.CurrentScreen .bottom {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+.CurrentScreen .location {
+    font-size: calc(10px + 1vw);
+}
+.HourlyScreen {
+  flex: 1; 
+  max-width: 1350px;
+  display: flex;
+  
+  border-radius: 25px;
+  margin: 15px; 
+  padding: 15px;
+  overflow: hidden;
+}  
+.AdditionalScreen {
+  flex: 1; 
+  display: flex;
+  height: 30%;
+  
+  border-radius: 25px;
+  padding: 15px;
+  margin: 15px; 
+}
+.blue {
+    background-color: #202b3b;
+}
+.lightBlue {
+    background-color: #a6b4e0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .cell {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .inner-cell {
+    flex-basis: 50%;
+    display: flex;
+  }
+  
+  .AdditionalScreen .iconHouse {
+        display: flex;
+        flex-direction: column;
+    }
+    .AdditionalScreen .inner-content {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+    .AdditionalScreen .title {
+        font-weight: bolder;
+        font-size: calc(1px + 1vw);
+    }
+
+.SevenDayScreen {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  
+  border-radius: 25px;
+  margin: 15px; 
+  padding: 15px;
+}
+
+@media (max-width: 925px) {
+    .home-screen {
+      flex-direction: column;
+    }
+  
+    .NavScreen {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .SearchScreen {
+      margin: 0;
+    }
+  
+    .rowOne {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .colOne {
+      width: 100%;
+    }
+  
+    .CurrentScreen {
+      margin: 0;
+    }
+  
+    .HourlyScreen {
+      margin-bottom: 10px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
+  
+    .AdditionalScreen {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  
+    .SevenDayScreen {
+      margin: 0;
+    }
+  }
+  
