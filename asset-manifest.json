@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Weather360/static/css/main.c24dc723.css",
-    "main.js": "/Weather360/static/js/main.24211fc6.js",
+    "main.css": "/Weather360/static/css/main.a23f99ac.css",
+    "main.js": "/Weather360/static/js/main.91004e0a.js",
     "static/js/787.e45c8987.chunk.js": "/Weather360/static/js/787.e45c8987.chunk.js",
     "static/media/w360logo.png": "/Weather360/static/media/w360logo.bfce21bec5187366d320.png",
     "index.html": "/Weather360/index.html",
-    "main.c24dc723.css.map": "/Weather360/static/css/main.c24dc723.css.map",
-    "main.24211fc6.js.map": "/Weather360/static/js/main.24211fc6.js.map",
+    "main.a23f99ac.css.map": "/Weather360/static/css/main.a23f99ac.css.map",
+    "main.91004e0a.js.map": "/Weather360/static/js/main.91004e0a.js.map",
     "787.e45c8987.chunk.js.map": "/Weather360/static/js/787.e45c8987.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c24dc723.css",
-    "static/js/main.24211fc6.js"
+    "static/css/main.a23f99ac.css",
+    "static/js/main.91004e0a.js"
   ]
 }
