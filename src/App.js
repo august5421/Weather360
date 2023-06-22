@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import HomeScreen from './screens/HomeScreen';
-
+import w360logo from './assets/images/w360logo.png';
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [townName, setTownName] = useState(null);
@@ -91,6 +91,7 @@ const App = () => {
         />
       ) : (
         <div className='load-screen'>
+          <img src={w360logo} alt="Weather360" className="logo" width="250px"/>
           <p>Loading Weather In Your Area...</p>
         </div>
       )}

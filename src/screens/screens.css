@@ -185,7 +185,7 @@
     }
   
     .HourlyScreen {
-      margin-bottom: 10px;
+      margin: 0px 0px 10px 0px;
       overflow-x: auto;
       overflow-y: hidden;
       white-space: nowrap;
@@ -198,6 +198,33 @@
   
     .SevenDayScreen {
       margin: 0;
+    }
+    .NavScreen {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 0px 0px 20px 0px;
+      padding: 15px; 
+      width: calc(100vw - 60px);
+    }
+    .NavScreen .logo {
+      width: 10%;
+      margin: 0px;
+      min-width: 75px;
+    }
+    .MuiFormGroup-root {
+      flex-direction: row !important;
+      margin-left: auto;
+    }
+    .NavScreen .switches {
+      margin: 0px 25px 0px 0px; 
+    }
+    .AdditionalScreen .inner-content {
+      margin: 10px;
+      text-align: center;
+    }
+    .AdditionalScreen .title {
+      font-size: 12px;
     }
   }
   
