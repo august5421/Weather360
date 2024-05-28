@@ -45,7 +45,7 @@ function CityForecast(props) {
             >
                 <img
                     className="weather-icon"
-                    src={`/assets/${userCities[props.index].icon}.png`}
+                    src={`https://august5421.github.io/Weather360/assets/${userCities[props.index].icon}.png`}
                     alt="Weather Icon"
                     width="60%"
                 />

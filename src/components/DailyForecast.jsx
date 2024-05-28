@@ -82,7 +82,7 @@ function DailyForecast(props) {
               >{formatTime(hour.dt)}</Typography>
               <img
                 className="weather-icon"
-                src={`/assets/${hour.weather[0].icon}.png`}
+                src={`https://august5421.github.io/Weather360/assets/${hour.weather[0].icon}.png`}
                 alt="Weather Icon"
                 width="60%"
               />

@@ -52,7 +52,7 @@ const Navbar = () => {
       }}
     >
       <img
-        src={`/assets/${theme.logo}`}
+        src={`https://august5421.github.io/Weather360/assets/${theme.logo}`}
         alt="Weather360"
         style={{ width: '70%', position: 'absolute', top: 15, cursor: 'pointer' }}
         onClick={() => handleScreenChange("weatherScreen")}

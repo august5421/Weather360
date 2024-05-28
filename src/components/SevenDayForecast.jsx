@@ -113,7 +113,7 @@ function SevenDayForecast() {
             >
               <img
                 className="weather-icon"
-                src={`/assets/${day.weather[0].icon}.png`}
+                src={`https://august5421.github.io/Weather360/assets/${day.weather[0].icon}.png`}
                 alt="Weather Icon"
                 style={{ height: "70%", marginRight: "5px" }}
               />

@@ -17,7 +17,7 @@ function MainForecast() {
   
   useEffect(() => {
     if (weatherData && weatherData.current && weatherData.current.weather[0].icon) {
-      const iconUrl = `/assets/${weatherData.current.weather[0].icon}.png`;
+      const iconUrl = `https://august5421.github.io/Weather360/assets/${weatherData.current.weather[0].icon}.png`;
       dispatch(setCurrentWeatherIcon(iconUrl));
     }
   }, [weatherData, dispatch]);
@@ -67,7 +67,7 @@ function MainForecast() {
           {weatherData && (
             <img
               className="weather-icon"
-              src={`/assets/${weatherData.current.weather[0].icon}.png`}
+              src={`https://august5421.github.io/Weather360/assets/${weatherData.current.weather[0].icon}.png`}
               alt="Weather Icon"
               width="60%"
             />
